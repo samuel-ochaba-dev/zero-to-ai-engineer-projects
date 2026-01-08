@@ -4,21 +4,21 @@ A classic dungeon crawler text adventure game built with Python. Navigate throug
 
 ## 📖 About This Project
 
-This game is the capstone project from **Chapter 15** of the book *"Zero to AI Engineer: Python Foundations"*. It consolidates core Python concepts from Part 2 of the book into a fully playable game.
+This game is the capstone project from **Chapter 15** of the book _"Zero to AI Engineer: Python Foundations"_. It consolidates core Python concepts from Part 2 of the book into a fully playable game.
 
 ### Concepts Demonstrated
 
-| Concept | How It's Used |
-|:--------|:--------------|
-| **Variables & Data Types** | Game state, room data, player info |
-| **Dictionaries** | Nested data for rooms and player state |
-| **Operators** | Health checks, item membership testing |
-| **String Methods** | F-strings, `.strip()`, `.lower()`, `.split()`, `.join()` |
-| **User Input** | Interactive `input()` game loop |
-| **Conditionals** | `if-elif-else` and `match/case` for commands |
-| **While Loops** | Main game loop |
-| **For Loops** | Iterating inventory with `enumerate()` |
-| **Type Hints** | Function signatures and variable annotations |
+| Concept                    | How It's Used                                            |
+| :------------------------- | :------------------------------------------------------- |
+| **Variables & Data Types** | Game state, room data, player info                       |
+| **Dictionaries**           | Nested data for rooms and player state                   |
+| **Operators**              | Health checks, item membership testing                   |
+| **String Methods**         | F-strings, `.strip()`, `.lower()`, `.split()`, `.join()` |
+| **User Input**             | Interactive `input()` game loop                          |
+| **Conditionals**           | `if-elif-else` and `match/case` for commands             |
+| **While Loops**            | Main game loop                                           |
+| **For Loops**              | Iterating inventory with `enumerate()`                   |
+| **Type Hints**             | Function signatures and variable annotations             |
 
 ## 🚀 Getting Started
 
@@ -32,7 +32,7 @@ This game is the capstone project from **Chapter 15** of the book *"Zero to AI E
 ```bash
 # Clone this repository
 git clone <repository-url>
-cd dungeon-escape-text-adventure
+cd dungeon-escape-text-adventure-game
 
 # Run the game
 python adventure_game.py
@@ -42,15 +42,15 @@ python adventure_game.py
 
 ### Commands
 
-| Command | Description |
-|:--------|:------------|
+| Command          | Description                      |
+| :--------------- | :------------------------------- |
 | `go <direction>` | Move north, south, east, or west |
-| `take <item>` | Pick up an item from the room |
-| `use <item>` | Use an item from your inventory |
-| `inventory` | View items you're carrying |
-| `look` | Look around the current room |
-| `help` | Show available commands |
-| `quit` | Exit the game |
+| `take <item>`    | Pick up an item from the room    |
+| `use <item>`     | Use an item from your inventory  |
+| `inventory`      | View items you're carrying       |
+| `look`           | Look around the current room     |
+| `help`           | Show available commands          |
+| `quit`           | Exit the game                    |
 
 ### Tips
 
@@ -107,18 +107,23 @@ You are in the Dark Corridor.
 Want to extend the game? Try these challenges:
 
 ### 1. Add a New Room
+
 Add a "dungeon_cell" room connected to the corridor containing a "rusty_key" item.
 
 ### 2. Implement a Puzzle Mechanic
+
 Make the exit door locked - require the "gold_key" to open it.
 
 ### 3. Add a Scoring System
+
 Track points for:
+
 - +10 for each item collected
 - +50 for winning
 - -5 for damage taken
 
 ### 4. Create More Random Events
+
 Add interesting events that affect inventory or have larger consequences.
 
 ## 📚 Learning More
@@ -133,6 +138,7 @@ This project is part of **"Zero to AI Engineer: Python Foundations"**:
 ## 🤝 Contributing
 
 Feel free to fork this project and add your own features! Ideas:
+
 - Combat system
 - Multiple dungeon levels
 - Save/load game state
@@ -144,4 +150,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Built with ❤️ as part of the *Zero to AI Engineer: Python Foundations* book.
+Built with ❤️ as part of the _Zero to AI Engineer: Python Foundations_ book.
